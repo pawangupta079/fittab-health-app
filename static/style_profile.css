@@ -1,11 +1,11 @@
 :root {
-    --primary-color: rgb(0, 103, 105);
-    --secondary-color: rgb(64, 165, 120);
-    --accent-color: rgb(157, 222, 139);
-    --highlight-color: rgb(230, 255, 148);
+    --primary-color: rgb(20, 20, 20);
+    --secondary-color: rgb(50, 50, 50);
+    --accent-color: rgb(100, 100, 100);
+    --highlight-color: rgb(150, 150, 150);
     --text-light: #ffffff;
     --text-dark: #333333;
-    --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    --shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
 }
 
 html, body {
@@ -27,7 +27,7 @@ html, body {
 }
 
 header {
-    background-color: rgba(0, 103, 105, 0.95);
+    background-color: rgba(20, 20, 20, 0.95);
     backdrop-filter: blur(10px);
     padding: 1rem;
     box-shadow: var(--shadow);
@@ -66,16 +66,16 @@ nav a {
     border-radius: 8px;
     transition: all 0.3s ease;
     font-weight: 500;
-    background: rgba(64, 165, 120, 0.1);
+    background: rgba(50, 50, 50, 0.1);
     backdrop-filter: blur(5px);
-    border: 1px solid rgba(157, 222, 139, 0.2);
+    border: 1px solid rgba(100, 100, 100, 0.2);
     display: flex;
     align-items: center;
     gap: 0.5rem;
 }
 
 nav a:hover {
-    background: rgba(64, 165, 120, 0.2);
+    background: rgba(50, 50, 50, 0.2);
     transform: translateY(-2px);
     box-shadow: var(--shadow);
     border-color: var(--accent-color);
@@ -118,7 +118,7 @@ nav a:hover i {
 
 .profile-button {
     background-color: #333;
-    color: #06a656;
+    color: #505050;
     border: none;
     cursor: pointer;
     padding: 10px;
@@ -141,7 +141,7 @@ nav a:hover i {
 }
 
 .dropdown-content a:hover {
-    background-color: #aad8a8;
+    background-color: #505050;
 }
 
 .profile-dropdown:hover .dropdown-content {
@@ -201,8 +201,8 @@ nav a:hover i {
 }
 
 .stat-card {
-    background-color: rgba(0, 103, 105, 0.1);
-    border: 1px solid rgba(157, 222, 139, 0.2);
+    background-color: rgba(20, 20, 20, 0.1);
+    border: 1px solid rgba(100, 100, 100, 0.2);
     border-radius: 15px;
     padding: 1.5rem;
     text-align: center;
@@ -210,7 +210,7 @@ nav a:hover i {
 }
 
 .stat-card:hover {
-    background: rgba(0, 103, 105, 0.2);
+    background: rgba(20, 20, 20, 0.2);
     transform: translateY(-3px);
 }
 
@@ -238,8 +238,8 @@ nav a:hover i {
     align-items: center;
     gap: 1rem;
     padding: 1rem;
-    background-color: rgba(0, 103, 105, 0.1);
-    border: 1px solid rgba(157, 222, 139, 0.2);
+    background-color: rgba(20, 20, 20, 0.1);
+    border: 1px solid rgba(100, 100, 100, 0.2);
     border-radius: 15px;
     transition: transform 0.3s ease;
 }
@@ -546,7 +546,7 @@ footer {
 }
 
 #profile-display strong {
-    color: #006769;
+    color: #333333;
 }
 
 #profile-form {
@@ -558,7 +558,7 @@ footer {
 #profile-form label {
     display: block;
     margin-bottom: 0.5rem;
-    color: #006769;
+    color: #333333;
     font-weight: 500;
 }
 
@@ -568,7 +568,7 @@ footer {
     width: 100%;
     padding: 0.8rem;
     margin-bottom: 1rem;
-    border: 1px solid rgba(0, 103, 105, 0.2);
+    border: 1px solid rgba(20, 20, 20, 0.2);
     border-radius: 8px;
     font-size: 1rem;
     transition: border-color 0.3s ease;
@@ -582,11 +582,11 @@ footer {
 
 #profile-form input:focus {
     outline: none;
-    border-color: #006769;
+    border-color: #333333;
 }
 
 button {
-    background: linear-gradient(45deg, #006769, #40A578);
+    background: linear-gradient(45deg, #333333, #4a4a4a);
     color: white;
     border: none;
     padding: 0.8rem 2rem;

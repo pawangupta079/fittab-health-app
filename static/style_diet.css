@@ -2,9 +2,9 @@
 
 /* Basic styling for body */
 :root {
-    --primary-color: rgb(0, 103, 105);
-    --secondary-color: rgb(64, 165, 120);
-    --accent-color: rgb(157, 222, 139);
+    --primary-color: rgb(30, 30, 30);
+    --secondary-color: rgb(121, 125, 124);
+    --accent-color: rgb(198, 200, 198);
     --highlight-color: rgb(230, 255, 148);
     --text-light: #ffffff;
     --text-dark: #333333;
@@ -31,7 +31,7 @@ html, body {
 
 /* Styling for header */
 header {
-    background-color: rgba(0, 103, 105, 0.95);
+    background-color: rgba(21, 21, 21, 0.95);
     backdrop-filter: blur(10px);
     padding: 1rem;
     box-shadow: var(--shadow);
@@ -185,7 +185,7 @@ nav a:hover i {
 }
 
 .dropdown-content a:hover {
-    background-color: #28bf20;
+    background-color: #3e3e3d;
 }
 
 .profile-dropdown:hover .dropdown-content {
@@ -255,7 +255,7 @@ footer {
     padding: 0.5rem 1rem;
     margin-top: 1rem;
     color: white;
-    background: #007bff;
+    background: #656667;
     text-decoration: none;
     border-radius: 4px;
 }
@@ -597,7 +597,7 @@ button:active {
 }
 
 .user-info strong {
-    color: #006769;
+    color: #1d2121;
     margin-right: 0.5rem;
 }
 
@@ -606,7 +606,7 @@ button:active {
 }
 
 .diet-suggestions h3 {
-    color: #006769;
+    color: #555b5c;
     margin-bottom: 1rem;
     font-size: 1.5rem;
 }
@@ -642,7 +642,7 @@ button:active {
 }
 
 button {
-    background: linear-gradient(45deg, #006769, #40A578);
+    background: linear-gradient(45deg, #5e5f5f, #3b3c3c);
     color: white;
     border: none;
     padding: 0.8rem 2rem;

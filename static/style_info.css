@@ -1,7 +1,7 @@
 /* Basic styling for header and footer */
 body {
     color: #333;
-    background: linear-gradient(135deg, #006769, rgb(64, 165, 120));
+    background: linear-gradient(135deg, #202020, #505050);
     background-size: 400% 400%;
     animation: gradientBG 15s ease infinite;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -43,7 +43,7 @@ header {
 }
 
 .nav-toggle:hover {
-    color: rgb(157, 222, 139);
+    color: rgb(100, 100, 100);
 }
 
 .nav-menu {
@@ -68,10 +68,10 @@ nav a {
 }
 
 nav a:hover {
-    background: rgb(64, 165, 120);
+    background: rgb(50, 50, 50);
     transform: translateY(-2px);
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    border-color: rgb(157, 222, 139);
+    border-color: rgb(100, 100, 100);
 }
 
 nav a i {
@@ -81,7 +81,7 @@ nav a i {
 
 nav a:hover i {
     transform: scale(1.1);
-    color: rgb(230, 255, 148);
+    color: rgb(150, 150, 150);
 }
 
 /* Mobile Navigation */
@@ -95,7 +95,7 @@ nav a:hover i {
 
     nav a:hover {
         transform: translateX(5px);
-        background: rgb(64, 165, 120);
+        background: rgb(50, 50, 50);
     }
 }
 
@@ -107,7 +107,7 @@ nav a:hover i {
 
 .profile-button {
     background-color: #333;
-    color: #06a656;
+    color: #505050;
     border: none;
     cursor: pointer;
     padding: 10px;
@@ -130,7 +130,7 @@ nav a:hover i {
 }
 
 .dropdown-content a:hover {
-    background-color: #28bf20;
+    background-color: #505050;
 }
 
 .profile-dropdown:hover .dropdown-content {
@@ -208,7 +208,7 @@ nav a:hover i {
 .info-title {
     font-size: 2.5rem;
     margin-bottom: 1rem;
-    background: linear-gradient(45deg, rgb(64, 165, 120), rgb(157, 222, 139));
+    background: linear-gradient(45deg, rgb(50, 50, 50), rgb(100, 100, 100));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -245,7 +245,7 @@ nav a:hover i {
 .info-icon {
     width: 50px;
     height: 50px;
-    background: linear-gradient(45deg, rgb(64, 165, 120), rgb(157, 222, 139));
+    background: linear-gradient(45deg, rgb(50, 50, 50), rgb(100, 100, 100));
     border-radius: 12px;
     display: flex;
     align-items: center;
@@ -273,7 +273,6 @@ nav a:hover i {
 }
 
 .info-list-item {
-    
     display: flex;
     align-items: center;
     gap: 0.8rem;
@@ -291,7 +290,7 @@ nav a:hover i {
 
 .info-list-item:before {
     content: '✓';
-    color: rgb(64, 165, 120);
+    color: rgb(50, 50, 50);
     font-weight: bold;
 }
 
@@ -301,7 +300,7 @@ nav a:hover i {
 }
 
 .info-button {
-    background: linear-gradient(45deg, rgb(64, 165, 120), rgb(157, 222, 139));
+    background: linear-gradient(45deg, rgb(50, 50, 50), rgb(100, 100, 100));
     color: #ffffff;
     border: none;
     padding: 1rem 2rem;
@@ -321,7 +320,7 @@ nav a:hover i {
 }
 
 button {
-    background: linear-gradient(45deg, rgb(64, 165, 120), rgb(157, 222, 139));
+    background: linear-gradient(45deg, rgb(50, 50, 50), rgb(100, 100, 100));
     color: #ffffff;
     border: none;
     padding: 1rem 2rem;
@@ -343,10 +342,10 @@ button:active {
 }
 
 :root {
-    --primary-color: rgb(0, 103, 105);
-    --secondary-color: rgb(64, 165, 120);
-    --accent-color: rgb(157, 222, 139);
-    --highlight-color: rgb(230, 255, 148);
+    --primary-color: rgb(20, 20, 20);
+    --secondary-color: rgb(50, 50, 50);
+    --accent-color: rgb(100, 100, 100);
+    --highlight-color: rgb(150, 150, 150);
     --text-light: #ffffff;
     --text-dark: #333333;
     --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
